@@ -25,7 +25,6 @@
 25.	ADD entrypoint.sh /entrypoint.sh
 26.	
 27.	RUN chmod +x /entrypoint.sh
-28.	
-    ENTRYPOINT ["/entrypoint.sh"]
+28.	ENTRYPOINT ["/entrypoint.sh"]
 
 
